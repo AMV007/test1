@@ -1,0 +1,8 @@
+/*
+!build
+build/*
+!build/libs/
+*.log
+!.gitignore
+
+!Dockerfile
