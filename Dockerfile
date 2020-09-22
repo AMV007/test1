@@ -1,7 +1,6 @@
 FROM openjdk
 MAINTAINER Akrisitiniy Maksim
 COPY build/libs/oslms-ms-datawriter-0.0.1.jar /deployments/app.jar
-COPY libs/oslms-utils-1.0.1.jar /deployments/libs/oslms-utils-1.0.1.jar
 ENV JAVA_OPTS="$JAVA_OPTS -Xms500m -Xmx1024m"
 ENV postgresql=${postgresql}
 ENV dbname=${dbname}
